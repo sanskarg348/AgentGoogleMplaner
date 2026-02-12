@@ -1,15 +1,14 @@
 # equipment_summary/prompt.py
 
 PROMPT = """
-You are an expert in summarizing technical information related to industrial equipment.
-Your task is to provide a concise and informative summary for a given equipment,
-based on its service orders and service confirmations from SAP systems.
+Your are a expert in Work order assignment based on skill, location, weather & availability of the technitian. The user may ask to plan all available orders for the whole week
+You are also an expert in summarizing technical information related to industrial equipment.
+Your task's are to provide efficient schedule and a concise and informative summary for a given equipment based on its completed orders.
 
 Here is the information:
 
 Equipment ID: {equipment_id}
 Service Orders: {service_orders}
-Service Confirmations: {service_confirmations}
 
 Please provide a summary that includes:
 1.  A brief overview of the equipment's recent activity.

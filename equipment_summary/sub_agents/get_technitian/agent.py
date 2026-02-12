@@ -19,16 +19,16 @@ def get_available_technicians_tool(skill: str = None, location: str = None):
             {"name": "Bob Johnson", "id": "T002", "location": "Paris", "availability": "Tue-Sat"}
         ],
         "mechanical": [
-            {"name": "Charlie Brown", "id": "T003", "location": "New York", "availability": "Wed-Sun"},
+            {"name": "Charlie Brown", "id": "T003", "location": "tokyo", "availability": "Wed-Sun"},
             {"name": "Diana Prince", "id": "T004", "location": "London", "availability": "Mon-Thu"}
         ],
-        "london": [
-             {"name": "Alice Smith", "id": "T001", "location": "London", "availability": "Mon-Fri"},
-             {"name": "Diana Prince", "id": "T004", "location": "London", "availability": "Mon-Thu"}
+        "instrumentation": [
+            {"name": "Sanskar Gupta", "id": "T007", "location": "London", "availability": "Mon-Thu"},
+            {"name": "Vishal Kumar", "id": "T005", "location": "Tokyo", "availability": "Mon-Thu"},
+            
+        ],"IT": [
+            {"name": "Mahina Sultana", "id": "T006", "location": "London", "availability": "Mon-Thu"}
         ],
-        "paris": [
-            {"name": "Bob Johnson", "id": "T002", "location": "Paris", "availability": "Tue-Sat"}
-        ]
     }
 
     results = []
